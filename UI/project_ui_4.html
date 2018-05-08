@@ -1,0 +1,278 @@
+﻿<!doctype html>
+<html lang="en">
+ <head>
+  <!-- <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content=""> -->
+  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  @font-face {
+    font-family: 'garamond';
+    src: url('https://fonts.google.com/specimen/Cormorant+Garamond'); /* IE9 Compat Modes */  
+  }
+
+  .background2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/af/Inception_bg.jpg");
+    background-position: center;
+    background-repeat: round;
+    background-size: cover;
+  }
+  </style>
+ </head>
+ <body class="background2">
+<div class="container" style="display: flex;background-color: #ffffffD9;">
+<div style="height:100%;width:100%;float:left;">
+<div style="height:175px;width:100%;background: linear-gradient(135deg, #ce1b28F2 0%, #111111F2 98%); top: 0; right: 0; bottom: 0; left: 0; position: absolute;">  
+
+<p style="color: white; font-size: 48px; margin-left: 0px; text-align: center;margin-top: 36px;font-family: 'garamond';">Understanding Behavior in Online Education</p>
+
+<div class="container" style="height:700px;width:100%;margin-top: 71px; padding-right: 0px; padding-left: 0px; background-color: #ffffffE6;">
+<div style="height:100%;width:50%;float:left;">
+<div style="height:110px;width:100%;background-color:#f2f2f2; box-shadow: #c2c2c2 3px 6px 10px;">
+
+<p style="color: black; font-size: 40px; margin-left: 0px; text-align: center;font-weight: bold;font-family: 'garamond';">Attributes</p>
+<p style="color:black; font-size: 22px; margin-left: 0px; text-align: center;margin-top: -18px;font-family: 'garamond';">Tell us about the Student / Course Attributes</p>
+</div>
+<p style="color:#808080; font-size: 26px; margin-left: 75px; margin-top: 15px;text-align: left;font-family: 'garamond';">Make Selections</p> 
+<form action="/" method="post">
+        <select style="width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name="institute" onchange='this.form.submit()'>
+            <option selected>Pick an Institution</option>
+            <option>MITx</option>
+            <option>HarvardX</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Completion rates: Harvard = xx, MIT = xx</p>	 -->
+        
+        <select style="width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='course' onchange='this.form.submit()'>
+            <option selected>Pick a course</option>
+            <option>14.73x</option>
+            <option>2.01x</option>
+            <option>3.091x</option>
+            <option>6.002x</option>
+            <option>6.00x</option>
+            <option>7.00x</option>
+            <option>8.02x</option>
+            <option>8.MReV</option>
+            <option>CB22x</option>
+            <option>CS50x</option>
+            <option>ER22x</option>
+            <option>PH207x</option>
+            <option>PH278x</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Most completed courses: xx, xx, xx</p>	        -->
+            <select style="margin-top: 10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='year' onchange='this.form.submit()'>
+            <option selected>Year</option>
+            <option>2012</option>
+            <option>2013</option>
+        </select>
+<!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Completion rates: 2012 = xx, 2013 = xx</p>	 --> 
+        <select style="width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='semester' onchange='this.form.submit()'>
+            <option selected>Semester</option>
+            <option>Fall</option>
+            <option>Spring</option>
+            <option>Summer</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Completion rates: Fall = xx, Spring = xx, Summer: </p>	 -->
+        <select style="margin-top: 10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='viewed' onchange='this.form.submit()'>
+            <option selected>Was the course ever viewed?</option>
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+        
+        <select style="width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='country' onchange='this.form.submit()'> 
+            <option selected>Country of Enrolment</option>
+            <option>Australia</option>
+            <option>Bangladesh</option>
+            <option>Brazil</option>
+            <option>Canada</option>
+            <option>China</option>
+            <option>Columbia</option>
+            <option>Egypt</option>
+            <option>France</option>
+            <option>Germany</option>
+            <option>Greece</option>
+            <option>India</option>
+            <option>Indonesia</option>
+            <option>Japan</option>
+            <option>Mexico</option>
+            <option>Morocco</option>
+            <option>Nigeria</option>
+            <option>Other Africa</option>
+            <option>Other East Asia</option>
+            <option>Other Europe</option>
+            <option>Other Middle East/Central Asia</option>
+            <option>Other North/Central America</option>
+            <option>Other Oceania</option>
+            <option>Other South America</option>
+            <option>Other South Asia</option>
+            <option>Pakistan</option>
+            <option>Philippines</option>
+            <option>Poland</option>
+            <option>Portugal</option>
+            <option>Russia</option>
+            <option>Spain</option>
+            <option>Ukraine</option>
+            <option>United Kingdom</option>
+            <option>United States</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Top countries for completion: xx, xx, xx</p>	 -->
+	
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='loe' onchange='this.form.submit()'>
+            <option selected>Level of education</option>
+            <option>Below Secondary</option>
+            <option>Secondary</option>
+            <option>Bachelors</option>
+            <option>Masters</option>
+            <option>Doctorate</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Highest completion rates: xx, xx, xx</p>	 -->
+
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='gender' onchange='this.form.submit()'>
+            <option selected>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Completion rates: Male = xx, Female = xx</p>	 -->
+
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='days' onchange='this.form.submit()'>
+            <option selected>No. of active days</option>
+            <option>0-10</option>
+            <option>10-20</option>
+            <option>20-30</option>
+            <option>30-40</option>
+            <option>40-50</option>
+            <option>Above 50</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Most favorable for completion: xx, xx, xx /p>	 -->
+    <!-- <p style="margin-top: 20px; font-weight: bold; margin-left: 75px;">Dataset average of certified students:</p>  -->
+
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='forum' onchange='this.form.submit()'>
+            <option selected>No. of forum posts</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2-5</option>
+            <option>5-10</option>
+            <option>10-20</option>
+            <option>Above 20</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Average for completed courses: xx</p>	 -->
+
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='age' onchange='this.form.submit()'>
+            <option selected>Student age</option>
+            <option>Unknown</option>
+            <option>Under 18</option>
+            <option>18-25</option>
+            <option>25-34</option>
+            <option>35-44</option>
+            <option>45-54</option>
+            <option>55-64</option>
+            <option>Above 64</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Most favorable for completion: xx, xx, xx</p>	 -->
+	  
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='chapters' onchange='this.form.submit()'>
+            <option selected>No. of completed chapters</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2-5</option>
+            <option>5-10</option>
+            <option>10-20</option>
+            <option>Above 20</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Average for completed courses: xx</p>	 -->
+
+
+        <select style="margin-top:10px;width: 200px;margin-left: 75px;background-color:#f2f2f2; border: 1px solid transparent; border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; color: #595959; height: 35px;box-shadow: #c2c2c2 3px 6px 10px; border-radius: 6px;font-size: 16px; font-weight: bold;font-family: 'garamond';" name='grade' onchange='this.form.submit()'>
+            <option selected>Average grade</option>
+            <option>0-20%</option>
+            <option>20-40%</option>
+            <option>40-60%</option>
+            <option>60-80%</option>
+            <option>80-100%</option>
+        </select>
+        <!-- <p style="color:black; font-size: 17px; margin-left: 75px; text-align: left;">Most favorable for completion: xx, xx, xx</p>	 -->
+
+    </form>
+</div>
+<div style="height:100%;width:50%;float: right;">
+<div style="height:110px;width:100%;background-color:#f2f2f2; box-shadow: #c2c2c2 3px 6px 10px; ">
+<p style="color: black; font-size: 40px; margin-left: 0px; text-align: center;font-weight: bold;font-family: 'garamond';">Our prediction</p>
+<p style="color: black; font-size: 22px; margin-left: 0px; text-align: center;margin-top: -18px;font-family: 'garamond';">Based on your inputs...</p></div>
+
+<div style="height:125px;width:fit-content">
+<div style="float:left">
+<img id="resulticon" style="margin-top: 110px; height: 93px; align-content: center; margin-left: 75px;" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Checkmark_green.svg"></img>
+</div>
+<div style="float:left">
+<p id="titletext" style=" margin-left: 10px; font-size: 30px; margin-top: 120px;font-family: 'garamond';">Congratulations!</p>
+</div>
+</div>
+<p id="tagline" style=" margin-left: 194px; font-size: 20px; margin-top: 48px;font-family: 'garamond';">You are the Chosen One! Happy Learning!</p>
+<p id="details" style=" margin-left: 75px; font-size: 20px; margin-top: 30px;font-family: 'garamond';"></p>
+<p id="levers" style=" margin-left: 75px; font-size: 20px; margin-top: 30px;font-family: 'garamond';"></p>
+
+<!-- <p style="margin-left:75px; font-size: 20px; margin-top: 300px"><a href="https://public.tableau.com/profile/shalini5997#!/vizhome/MOOCs_1/Sheet1?publish=yes">Forum Posts</a></p> -->
+
+ </body>
+</html>
+<script>
+//Create Websocket
+var myIP = '10.0.0.111'
+var client = new WebSocket('ws://'+myIP+':9100');
+
+
+function receiveMessage(i){
+	var timeStamp = Date.now();
+    var message   = "Received from server " + timeStamp;
+    console.log(i.data);
+    if (i.data == 1){
+        document.getElementById("titletext").innerHTML = "Congratulations";
+        document.getElementById("resulticon").src = "https://upload.wikimedia.org/wikipedia/commons/b/bd/Checkmark_green.svg";
+        document.getElementById("tagline").innerHTML = "You are the Chosen One! Have Fun being Certified";
+        document.getElementById("details").innerHTML = "";
+        document.getElementById("levers").innerHTML = "";
+
+        // client.send(message); 
+    }
+    else {
+        document.getElementById("titletext").innerHTML = "Alas!";
+        document.getElementById("resulticon").src = "https://upload.wikimedia.org/wikipedia/commons/1/1e/Emoji_u274c.svg";
+        document.getElementById("tagline").innerHTML = "You will always remember this day as the day you almost caught Captain Jack Sparrow!";
+        document.getElementById("details").innerHTML = "Try tweaking some of the levers below to increase chances of completion based on averages of successful students:";
+        document.getElementById("levers").innerHTML = "Forum posts: xx, Age: xx, Level of education: xx, Age: xx, Completed chapters: xx ";
+        // client.send(message); 
+    }
+};
+
+function sendMessage(){
+    var timeStamp = Date.now();
+    var message   = "Sending to server " + timeStamp;
+    client.send(message)
+    setInterval(function(){client.send(message)}, 500);
+}
+
+client.onopen = function (event) {
+    sendMessage();
+    // setInterval(sendMessage(), 500);
+
+    client.send("Hello, server");
+    console.log('Client Established')
+    // console.log(event);
+};
+
+client.onmessage = function (event) {
+    receiveMessage(event);
+    //  var timeStamp = Date.now();
+    //  client.send("New Message Received by Client!" + timeStamp);
+    // console.log(event.data);        
+};
+
+
+
+</script>

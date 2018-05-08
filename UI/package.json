@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data_clean.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "brain.js": "^1.1.2",
+    "convert-csv-to-json": "^0.0.13",
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "js-regression": "^1.0.10",
+    "jskit-learn": "^0.9.4",
+    "ml-logistic-regression": "^1.0.2",
+    "ml-matrix": "^5.0.1",
+    "pattern-replace": "^0.1.2",
+    "replace": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
